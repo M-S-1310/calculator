@@ -1,0 +1,10 @@
+import java.util.*;
+public class calc{
+  public static void main (String args[])
+  {
+    Scanner in = new scanner(System.in);
+    a=in.nextInt();
+    b=in.nextInt();
+ sum = a+b;
+ System.out.println("sum:"+sum);
+  }}
