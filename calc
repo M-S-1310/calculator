@@ -2,15 +2,23 @@ import java.util.*;
 public class calc{
   public static void main (String args[])
   {
-    Scanner in = new scanner(System.in);
-    a=in.nextInt();
+  Scanner in = new scanner(System.in);
+int d;    
+a=in.nextInt();
     b=in.nextInt();
  int c = in.nextInt();
 System.out.println("Enter a choice:");
 System.out.println("1 for sum, 2 for subtraction, 3 for product, 4 for division");
 switch(ch)
 {
- case 1 : sum = a+b;
+ case 1 : d = a+b;
          System.out.println("sum:"+sum);
+ case 2 : d = a-b;
          break;
-
+ case 3: d = a*b;
+         break;
+case 4: d = a/b;
+       break;
+}
+ }
+  }
